@@ -12,5 +12,10 @@ Was getting errors on npm start until I did:
 
 Which fixed it.
 
+## Setup
+
+- npm install
+- npm start (watches and compiles app/*.ts files and runs lite-server)
+
 
 
