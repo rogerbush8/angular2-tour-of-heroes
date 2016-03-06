@@ -17,7 +17,7 @@ A good starting point for using NPM, TypeScript (1.8) and Angular2 (beta8).
 - Has a cleaned up, final version of the solution of the Angular 2
   tutorial "Tour of Heroes" for inspection.  A good, simple app to pick
   apart, which is properly organized and structured and shows most of
-  the Angular2 features on needs.
+  the Angular2 features one needs.
 
 ## TODO
 
