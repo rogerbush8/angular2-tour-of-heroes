@@ -7,10 +7,13 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "rootDir" : "./app-src",
+    "outDir" : "./app"
   },
   "exclude": [
     "node_modules",
+    "app",
     "typings/main",
     "typings/main.d.ts"
   ]
