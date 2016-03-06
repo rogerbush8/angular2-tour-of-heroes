@@ -1,7 +1,7 @@
 import { Component, OnInit } from 'angular2/core';
 import { Router } from 'angular2/router';
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+import { Hero } from '../hero/hero';
+import { HeroService } from '../hero/hero.service';
 
 @Component({
     selector: 'my-dashboard',
@@ -11,8 +11,8 @@ import { HeroService } from './hero.service';
        (tsconfig.json:module) which is currently system(js).  systemjs
        is a WIP
     */
-    templateUrl: 'app/dashboard.component.html',
-    styleUrls: ['app/dashboard.component.css']
+    templateUrl: 'app/main/dashboard.component.html',
+    styleUrls: ['app/main/dashboard.component.css']
 })
 
 export class DashboardComponent implements OnInit {
