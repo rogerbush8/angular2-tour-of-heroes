@@ -24,6 +24,10 @@ A good starting point for using NPM, TypeScript (1.8) and Angular2 (beta8).
 - grunt should copy files that aren't there on startup (not just on
   file change).
 - Add grunt clean task
+- Bug
+  - Uncaught (in promise) TypeError: object is not a constructor(…)
+  - fixed in es6-shim-0.34.4.  but 0.33.3 is necessary for angular2.
+
 
 ## Errors
 
